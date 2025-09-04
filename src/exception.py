@@ -7,7 +7,7 @@ def error_message_detail(error):
     error_message=(
         f"\n"
         f"Error type: {exc_value}\n"
-        f"Occured in python script name [{file_name}] line number [{exc_tb.tb_lineno}] error message [{str(error)}]"
+        f"ccured in python script name [{file_name}] line number [{exc_tb.tb_lineno}] error message [{str(error)}]"
     )
     return error_message
 
